@@ -1,0 +1,74 @@
+body{
+    overflow-x: hidden;
+}
+hr{
+    border: none;
+    height: 10px;
+    background-color: black;
+    width: 90%;
+    justify-self: center;
+}
+
+.miniLine{
+    border: none;
+    height: 10px;
+    background-color: black;
+    width: 15%;
+    justify-self: center;
+}
+
+.divImg{
+    width:90%;
+}
+.divImg img{
+    height: 60vh;
+}
+
+main .divBtn{
+    width: 90%;
+}
+
+h3{
+    width: 70%;
+}
+
+section{
+    width: 90%;
+    gap:10px
+}
+
+#lorem1, #lorem2, #lorem3{
+    width:30%;
+    padding: 20px;
+}
+
+#lorem1:hover{
+    background-color: black;
+    color: white;
+}
+
+#lorem2:hover{
+    background-color: brown;
+    color: white;
+}
+
+#lorem3:hover{
+    background-color: grey;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    body{
+        width:100%;
+        box-sizing:none;
+        overflow-x: hidden;
+    }
+    hr, .miniLine, .divBtn, .divImg{
+        width: 100%;
+    }
+
+    #lorem1, #lorem2, #lorem3{
+        width:100%;
+        padding: 20px;
+    }
+}
